@@ -6,4 +6,4 @@ if __name__ == '__main__':
     while True:
         a.get_img()
         a.show_image("test")
-        a.delay(1)
+        a.delay(100)
