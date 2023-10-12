@@ -7,5 +7,4 @@ def bubble_sort(list):
     return list
 
 # test
-list = [1,3,2,5,4,7,6,9,8]
 print(bubble_sort(list))

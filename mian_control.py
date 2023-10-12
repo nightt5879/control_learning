@@ -1,9 +1,13 @@
-from control import shijue0
+from control import shijue1
 
-if __name__ == '__main__':
-    a = shijue0.basicImg()
-    a.camera(0)
-    while True:
-        a.get_img()
-        a.show_image("test")
-        a.delay(100)
+a = None
+
+
+a=shijue1.Img()
+a.camera(0)
+a.finger_init()
+while  True:
+  a.get_img()
+  a.finger_detect()
+  a.show_image('img')
+  a.delay(1)
